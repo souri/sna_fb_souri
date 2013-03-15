@@ -8,9 +8,9 @@
     "link": ""
   },
   "text": {
-    "title": "Analysing facebook.com/souriguha",
-    "more": "Trying my hands on social network analysis.\n\nFind the visualiser code at: http://souriguha.github.com/sna_fb_souri/\n\nThe visualiser code shall prove pretty much useless for you, unless you are trying to learn some js/html/css and this is just a standard template :) I\u0027ll be keeping a tab of the pull requests though.\n\nI haven\u0027t posted the data mining code yet since it needs some severe upgrades. I\u0027ll blog about this soon.\n",
-    "intro": "Attempt to analyze my Facebook friends graph.\n\u003ch\u003eCode: http://souriguha.github.com/sna_fb_souri/"
+    "title": "Analysing fb.com/souriguha",
+    "more": "Trying my hands on social network analysis.\n\nFind the visualiser code at:\n http://souriguha.github.com/sna_fb_souri/\n\nThe visualiser code shall prove pretty much useless for you, unless you are trying to learn some js/html/css and this is just a standard template :)\n\nI haven\u0027t posted the data mining code yet since it needs some severe upgrades. I\u0027ll blog about this soon.\n",
+    "intro": "Attempt to analyze my Facebook friends graph.\n\nCode: http://souriguha.github.com/sna_fb_souri/"
   },
   "legend": {
     "edgeLabel": "Connections",
@@ -23,18 +23,18 @@
     "hoverBehavior": "Dim"
   },
   "informationPanel": {
-    "imageAttribute": false,
+    "imageAttribute": true,
     "groupByEdgeDirection": false
   },
   "sigma": {
     "graphProperties": {
       "minEdgeSize": 0.2,
       "maxNodeSize": 7,
-      "maxEdgeSize": 0.5,
+      "maxEdgeSize": 0.9,
       "minNodeSize": 1
     },
     "drawingProperties": {
-      "labelThreshold": 10,
+      "labelThreshold": 4,
       "hoverFontStyle": "bold",
       "defaultEdgeType": "curve",
       "defaultLabelColor": "#000",
