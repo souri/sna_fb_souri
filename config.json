@@ -10,7 +10,7 @@
   "text": {
     "title": "Analysing fb.com/souriguha",
     "more": "Trying my hands on social network analysis.\n\nFind the visualiser code at:\n http://souriguha.github.com/sna_fb_souri/\n\nThe visualiser code shall prove pretty much useless for you, unless you are trying to learn some js/html/css and this is just a standard template :)\n\nI haven\u0027t posted the data mining code yet since it needs some severe upgrades. I\u0027ll blog about this soon.\n",
-    "intro": "Attempt to analyze my Facebook friends graph.\n\nCode: http://souriguha.github.com/sna_fb_souri/"
+    "intro": "Attempt to analyze my Facebook friends graph.\n\n "
   },
   "legend": {
     "edgeLabel": "Connections",
@@ -34,10 +34,10 @@
       "minNodeSize": 1
     },
     "drawingProperties": {
-      "labelThreshold": 4,
+      "labelThreshold": 3,
       "hoverFontStyle": "bold",
       "defaultEdgeType": "curve",
-      "defaultLabelColor": "#000",
+      "defaultLabelColor": "#eee",
       "defaultLabelHoverColor": "#fff",
       "defaultLabelSize": 14,
       "activeFontStyle": "bold",
