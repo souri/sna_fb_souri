@@ -37,7 +37,7 @@ html,body {
 	height: 100%;
 	top: 0;
 	left: 0;
-	background-color: #eee;
+	background-color: #000;
 	background-position: center center;
 	background-repeat: no-repeat;
 	-webkit-touch-callout: none;
@@ -234,8 +234,8 @@ display: none;
 margin-top: 50px;
 margin-left: 25px;
 background:#fff;
-background-color:rgba(255,255,255,0.8);
-border:1px solid #ccc;
+background-color:rgba(255,255,255,0.0);
+color:#fff;
 z-index:20;
 position:fixed;
 top:0;
@@ -246,7 +246,7 @@ padding: 0px 0 0 0;
 }
 
 #mainpanel .col {
-width: 240px;
+width: 220px;
 padding: 18px 18px 18px 18px;
 margin: 0;
 
@@ -266,7 +266,7 @@ padding: 6px 0 10px 0;
 
 
 #search {
-	border-top: 1px solid #999;
+	border-top: 0px solid #999;
 	padding: 20px 0 0px 2px;
 }
 
@@ -314,7 +314,7 @@ padding: 1px 2px;
 display: block;
 cursor: pointer;
 text-decoration: none;
-color: #000;
+color: #eee;
 }
 
 #search .results a:hover {
@@ -384,7 +384,7 @@ padding-top: 1em;
 }
 
 #mainpanel dl {
-	padding-bottom:10px;
+	padding-bottom:8px;
 }
 
 #mainpanel h2 {
@@ -408,7 +408,7 @@ background-image: url('../images/sprite.png');
 
 #legend dd {
 margin-bottom: 8px;
-color: #000;
+color: #eee;
 }
 
 #mainpanel .infos dd {
@@ -481,11 +481,11 @@ display: none;
 
 #zoom .z {
 	background:#fff;
-	background-color:rgba(255,255,255,0.7);
-	width: 60px;
-	height: 60px;
+	background-color:rgba(255,255,255,0.5);
+	width: 40px;
+	height: 40px;
 	cursor: pointer;
-	border:1px solid #ccc;
+	border:0px solid #ccc;
 	float:left;
 	margin-right:4px;
 	background-repeat:no-repeat;
@@ -508,7 +508,7 @@ display: none;
 
 .line {
 	font-size: 12px;
-	color: #000;
+	color: #eee;
 	text-decoration: none;
 	font-weight: bold;
 	cursor: pointer;

@@ -8,36 +8,36 @@
     "link": ""
   },
   "text": {
-    "title": "Socail Network Analysis",
-    "more": "Attempt to Analyze my Facebook network",
-    "intro": "SNA\t"
+    "title": "Analysing fb.com/souriguha",
+    "more": "Trying my hands on social network analysis.\n\nFind the visualiser code at:\n http://souriguha.github.com/sna_fb_souri/\n\nThe visualiser code shall prove pretty much useless for you, unless you are trying to learn some js/html/css and this is just a standard template :)\n\nI haven\u0027t posted the data mining code yet since it needs some severe upgrades. I\u0027ll blog about this soon.\n",
+    "intro": "Attempt to analyze my Facebook friends graph.\n\n "
   },
   "legend": {
-    "edgeLabel": "Connection",
+    "edgeLabel": "Connections",
     "colorLabel": "Groups",
-    "nodeLabel": "Friends"
+    "nodeLabel": "My Friends"
   },
   "features": {
     "search": true,
-    "groupSelectorAttribute": "color",
+    "groupSelectorAttribute": false,
     "hoverBehavior": "Dim"
   },
   "informationPanel": {
-    "imageAttribute": false,
+    "imageAttribute": true,
     "groupByEdgeDirection": false
   },
   "sigma": {
     "graphProperties": {
       "minEdgeSize": 0.2,
       "maxNodeSize": 7,
-      "maxEdgeSize": 0.5,
+      "maxEdgeSize": 0.9,
       "minNodeSize": 1
     },
     "drawingProperties": {
-      "labelThreshold": 10,
+      "labelThreshold": 3,
       "hoverFontStyle": "bold",
       "defaultEdgeType": "curve",
-      "defaultLabelColor": "#000",
+      "defaultLabelColor": "#eee",
       "defaultLabelHoverColor": "#fff",
       "defaultLabelSize": 14,
       "activeFontStyle": "bold",
@@ -47,7 +47,7 @@
     },
     "mouseProperties": {
       "minRatio": 0.75,
-      "maxRatio": 20
+      "maxRatio": 8
     }
   }
 }
